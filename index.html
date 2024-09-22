@@ -22,22 +22,22 @@
     </style>
 </head>
 
-<body>
-    <header>
+<body class="lexend-font">
+    <header class="sticky top-0">
         <nav class="bg-[#f9f7f3]">
 
-            <div class="navbar">
+            <div class="navbar container mx-auto mb-10">
                 <div class="navbar-start">
-                    <button class="btn">Blog</button>
+                    <button class="btn bg-[#B4F461] hover:bg-[#B4F461] font-semibold ">Blog</button>
                 </div>
-                <div class="navbar-center"> 
+                <div class="navbar-center">
                     <img src="assets/logo.png" alt="">
-                    <h2 class="text-2xl px-5">Donate Bangladesh</h2>
-                    
+                    <h2 class="text-2xl px-5 text-xl font-semibold">Donate Bangladesh</h2>
+
                 </div>
                 <div class="navbar-end">
                     <img src="assets/coin.png" alt="">
-                    <p class="font-bold text-3xl px-2">5000</p>
+                    <p class="font-medium text-xl px-2 ">5000</p>
                 </div>
             </div>
 
@@ -45,6 +45,30 @@
     </header>
 
     <main>
+        <div class="container mx-auto text-center">
+            <button
+                class="btn btn-outline bg-[#B4F461] hover:bg-[#B4F461] hover:text-black font-semibold border-none">Donation</button>
+            <button class="btn btn-outline">History</button>
+        </div>
+        <!-- card section -->
+        <section class="md:flex">
+            <div class="container mx-auto w-96 my-2 md:w-full">
+                <img src="assets/noakhali.png" alt="">
+            </div>
+            <div>
+                <div class="flex bg-[#1111110D] w-36 rounded-md">
+                    <img src="assets/coin.png" alt="">
+                    <p class="font-medium text-xl px-2 ">000 BDT</p>
+                </div>
+                <h2>Donate for Flood at Noakhali, Bangladesh</h2>
+                <p> The recent floods in Noakhali have caused significant damage to homes  infrastructure. Your donation will help provide essential supplies and  to those affected by this disaster. Every contribution, big or small, makes  difference. Please join us in supporting the relief efforts and making a positive impact on the lives of those in need.</p>
+                <input type="text" placeholder="Write Donation Amount">
+                <br>
+                <button
+                class="btn btn-outline btn-wide bg-[#B4F461] hover:bg-[#B4F461] hover:text-black font-semibold border-none">Donate Now</button>
+
+            </div>
+        </section>
 
     </main>
 
