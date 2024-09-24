@@ -37,35 +37,36 @@
             </div>
         </nav>
     </header>
-    <main class="container mx-auto">
+    <main class="container w-11/12 mx-auto">
         <h1 class="font-bold text-xl p-2 my-5">Important FAQ <i class="fa-solid fa-question border-2 border-black p-1 rounded-md"></i></h1>
         <div class="join join-vertical w-full">
             <div class="collapse collapse-arrow join-item border-base-300 border">
               <input type="radio" name="my-accordion-4" checked="checked" />
-              <div class="collapse-title text-xl font-medium">What is a DOM in JavaScript?</div>
+              <div class="collapse-title text-xl font-medium">What is the Document Object Model (DOM)?</div>
               <div class="collapse-content">
                 <p>The Document Object Model (DOM) is a programming interface for web documents. It represents the page so that programs can change the document structure, style, and content.</p>
               </div>
             </div>
             <div class="collapse collapse-arrow join-item border-base-300 border">
               <input type="radio" name="my-accordion-4" />
-              <div class="collapse-title text-xl font-medium">Why is DOM required?</div>
+              <div class="collapse-title text-xl font-medium">How do you select an element from the DOM?
+              </div>
               <div class="collapse-content">
-                <p>The DOM provides a standardized way to interact with page elements. Single-Page Applications (SPAs): Applications built with frameworks such as React or Angular, heavily rely on the DOM for efficient rendering and updating of content within a single HTML page without reloading the full page.</p>
+                <p>The getElementById() method of the Document interface returns an Element object representing the element whose id property matches the specified string.</p>
               </div>
             </div>
             <div class="collapse collapse-arrow join-item border-base-300 border">
               <input type="radio" name="my-accordion-4" />
-              <div class="collapse-title text-xl font-medium">How important is the Dom?</div>
+              <div class="collapse-title text-xl font-medium">What is event delegation in the context of the DOM, and why is it useful?</div>
               <div class="collapse-content">
-                <p>By representing HTML elements as objects within the DOM, developers can easily access and manipulate them using programming languages like JavaScript. These objects have properties and methods that allow developers to modify attributes, change content, add or remove elements, and respond to user interactions.</p>
+                <p>Event delegation refers to the process of using event propagation (bubbling) to handle events at a higher level in the DOM than the element on which the event originated.</p>
               </div>
             <div class="collapse collapse-arrow join-item border-base-300 border">
               <input type="radio" name="my-accordion-4" />
-              <div class="collapse-title text-xl font-medium">How to access DOM in JavaScript?</div>
+              <div class="collapse-title text-xl font-medium">How do you manipulate an element's attributes and styles using the DOM?
+              </div>
               <div class="collapse-content">
-                <p>Accessing a DOM element By TagName:
-                    JavaScript can find the elements in the HTML based on the "tagName" and return an array of matching nodes. The inbuilt function, of document object, available for this is getElementByTagName().</p>
+                <p>The classList object only provide methods to change the class of an element. If you want to change other attributes like id , href , or src , you can use the setAttribute() method. The setAttribute() method accepts two arguments: The name of the attribute to set.</p>
               </div>
             </div>
           </div>
