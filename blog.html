@@ -11,9 +11,6 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
-    
-    <!-- <script src="https://kit.fontawesome.com/b6b5017f5e.js" crossorigin="anonymous"></script> -->
-
     <style>
         .lexend-font {
             font-family: "Lexend", sans-serif;
@@ -24,26 +21,23 @@
 <body class="lexend-font">
     <header class="sticky top-0 z-10"></header>
         <nav class="bg-[#f9f7f3]">
-
             <div class="navbar container mx-auto mb-10">
                 <div class="navbar-start">
                     <a href="index.html"><button class="btn bg-[#B4F461] hover:bg-[#B4F461] font-semibold ">Home</button></a>
                 </div>
                 <div class="navbar-center">
                     <img src="assets/logo.png" alt="">
-                    <h2 class="text-2xl px-5 text-xl font-semibold">Donate Bangladesh</h2>
-
+                    <h2 class="text-2xl px-5 text-xl font-semibold hidden md:block">Donate Bangladesh</h2>
+                    <h2 class="text-2xl px-5 text-xl font-semibold md:hidden">Donate BD</h2>
                 </div>
                 <div class="navbar-end">
                     <img src="assets/coin.png" alt="">
-                    <p class="font-medium text-xl px-2 ">5000</p>
+                    <p class="font-medium text-xl px-2 "> <span id="balance">5000</span> <span class="hidden md:inline-block">BDT</span></p>
                 </div>
             </div>
-
         </nav>
     </header>
     <main class="container mx-auto">
-
         <h1 class="font-bold text-xl p-2 my-5">Important FAQ <i class="fa-solid fa-question border-2 border-black p-1 rounded-md"></i></h1>
         <div class="join join-vertical w-full">
             <div class="collapse collapse-arrow join-item border-base-300 border">
@@ -79,5 +73,10 @@
     </main>
 <!-- font awsome kit -->
     <script src="https://kit.fontawesome.com/b6b5017f5e.js" crossorigin="anonymous"></script>
+    <!-- js script -->
+    <script src="js/cmn.js"></script>
+    <script src="js/noakhali.js"></script>
+    <script src="js/feni.js"></script>
+    <script src="js/quota.js"></script>
 </body>
 </html>
